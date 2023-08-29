@@ -4,7 +4,7 @@ import IconPrev from "../../assets/IconPrev"
 import IconNext from "../../assets/IconNext"
 import {useMediaQuery} from "@mantine/hooks"
 import {useCallback, useState} from "react"
-import {blogData} from "../../data"
+
 
 const Enterprise = () => {
   const largeScreen = useMediaQuery("(max-width: 48em)")
