@@ -1,5 +1,3 @@
-import * as React from "react"
-
 const IconLight = ({fill}: {fill: string}) => (
   <svg
     width={24}
