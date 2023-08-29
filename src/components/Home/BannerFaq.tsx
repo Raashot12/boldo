@@ -1,13 +1,4 @@
-import {
-  Box,
-  Container,
-  Divider,
-  Flex,
-  Grid,
-  Group,
-  Image,
-  Text,
-} from "@mantine/core"
+import {Box, Container, Divider, Flex, Grid, Image, Text} from "@mantine/core"
 import DropDown from "../../assets/DropDown"
 
 const BannerFaq = () => {
