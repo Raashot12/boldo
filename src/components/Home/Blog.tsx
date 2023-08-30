@@ -115,7 +115,7 @@ const blogData = [
     content:
       "Seed round direct mailing non-disclosure agreement graphical user interface rockstar.",
     image:
-      "https://res.cloudinary.com/rashot/image/upload/v1693374770/Rectangle_1270_2_cypq05.svg",
+      "https://res.cloudinary.com/rashot/image/upload/v1693418228/Rectangle_1270_3_wq052i.png",
     profileImage:
       "https://res.cloudinary.com/rashot/image/upload/v1693374744/Ellipse_10_1_ibwmkz.svg",
     category: "Category",

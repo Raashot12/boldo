@@ -87,7 +87,7 @@ const Connect = () => {
           </Stack>
         </Grid.Col>
         <Grid.Col md={6}>
-          <Image src="https://res.cloudinary.com/rashot/image/upload/v1693372337/girlcalling_yvsndw.svg" />
+          <Image src="https://res.cloudinary.com/rashot/image/upload/v1693418235/Group_281_mldg9s.png" />
         </Grid.Col>
       </Grid>
     </Container>
