@@ -20,8 +20,8 @@ const Footer = () => {
       }}
     >
       <Container size={"lg"}>
-        <Grid gutter={100}>
-          <Grid.Col sm={6} md={4}>
+        <Grid gutter={100} gutterXs={50}>
+          <Grid.Col sm={6} md={4} py={{base: 0}}>
             <Bodo />
             <Text
               fw={400}
@@ -35,7 +35,7 @@ const Footer = () => {
               interface launch party creative facebook iPad twitter.
             </Text>
           </Grid.Col>
-          <Grid.Col md={8}>
+          <Grid.Col sm={6} md={8}>
             <Grid>
               <Grid.Col sm={6} md={4} sx={{cursor: "pointer"}}>
                 <Text mb={32} fw={700} fz={20} color="#000">
