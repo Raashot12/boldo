@@ -8,7 +8,7 @@ const Customer = () => {
     <Container size={"lg"} sx={{overflow: "hidden"}}>
       <Grid pt={{base: 90, lg: 120}} gutterLg={150} gutterSm={50} px={0}>
         <Grid.Col md={6}>
-          <Image src="https://res.cloudinary.com/rashot/image/upload/v1693416262/Group_216_mqk0vs.png" />
+          <Image src="https://imgur.com/bEu9bth" />
         </Grid.Col>
         <Grid.Col md={6}>
           <Text
