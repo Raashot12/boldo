@@ -118,16 +118,19 @@ const ourserviceData = [
   {
     id: 1,
     text: "Cool feature title",
-    graphicPic: "/src/img/Walking.svg",
+    graphicPic:
+      "https://res.cloudinary.com/rashot/image/upload/v1693373023/Walking_gvxzkk.svg",
   },
   {
     id: 2,
     text: "Even cooler feature",
-    graphicPic: "/src/img/shakinghands.svg",
+    graphicPic:
+      "https://res.cloudinary.com/rashot/image/upload/v1693373070/shakinghands_pr7oxk.svg",
   },
   {
     id: 3,
     text: "Cool feature title",
-    graphicPic: "/src/img/house.svg",
+    graphicPic:
+      "https://res.cloudinary.com/rashot/image/upload/v1693373139/house_jjk8fs.svg",
   },
 ]

@@ -12,7 +12,7 @@ const HeroSection = () => {
   return (
     <>
       <Box
-        mih={{base: "auto", md: 801}}
+        mih={{base: 729, sm: 700, lg: 801}}
         bg={"white"}
         bgr={"no-repeat"}
         bgp={"center"}
@@ -64,7 +64,11 @@ const HeroSection = () => {
                 </Box>
               </Grid.Col>
               <Grid.Col md={5}>
-                <Image src={"/src/img/HeroGraphics.svg"} />
+                <Image
+                  src={
+                    "https://res.cloudinary.com/rashot/image/upload/v1693370554/HeroGraphics_r5m4eq.svg"
+                  }
+                />
               </Grid.Col>
             </Grid>
             <Box mt={95}>
@@ -77,7 +81,7 @@ const HeroSection = () => {
                 align="center"
                 breakpoints={[
                   {maxWidth: "md", slideSize: "25%"},
-                  {maxWidth: "sm", slideSize: "50%", slideGap: 10},
+                  {maxWidth: "sm", slideSize: "35%", slideGap: 10},
                 ]}
               >
                 {brand.map(item => (
@@ -118,7 +122,7 @@ const BuyTemplateBtn = styled.button`
     width: 100%;
   }
 `
-const ExploreBtn = styled.button`
+export const ExploreBtn = styled.button`
   height: 58px;
   padding: 0px 56px;
   justify-content: center;

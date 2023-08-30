@@ -28,7 +28,7 @@ const Connect = () => {
     setActiveIndex(id)
   }
   return (
-    <Container size={"lg"}>
+    <Container size={"lg"} sx={{overflow: "hidden"}}>
       <Grid
         pb={{base: 90, lg: 120}}
         gutterLg={158}
@@ -87,7 +87,7 @@ const Connect = () => {
           </Stack>
         </Grid.Col>
         <Grid.Col md={6}>
-          <Image src="/src/img/girlcalling.svg" />
+          <Image src="https://res.cloudinary.com/rashot/image/upload/v1693372337/girlcalling_yvsndw.svg" />
         </Grid.Col>
       </Grid>
     </Container>

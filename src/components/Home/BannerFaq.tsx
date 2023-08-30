@@ -3,7 +3,7 @@ import DropDown from "../../assets/DropDown"
 
 const BannerFaq = () => {
   return (
-    <Container size="xl">
+    <Container size="lg" sx={{overflow: "hidden"}}>
       <Box pt={{base: 60, md: 120}} pb={{base: 60, md: 120}}>
         <Image
           src={
@@ -22,14 +22,18 @@ const BannerFaq = () => {
             <Grid.Col md={6}>
               <Box mb={32}>
                 <Flex justify={"space-between"} columnGap={50} align={"center"}>
-                  <Text>We connect our customers with the best?</Text>
+                  <Text fz={20} ff={"Open Sans"} fw={400}>
+                    We connect our customers with the best?
+                  </Text>
                   <DropDown />
                 </Flex>
                 <Divider mt={16} color="#C4C4C4" />
               </Box>
               <Box>
                 <Flex justify={"space-between"} columnGap={50} align={"center"}>
-                  <Text>We connect our customers with the best?</Text>
+                  <Text fz={20} ff={"Open Sans"} fw={400}>
+                    We connect our customers with the best?
+                  </Text>
                   <DropDown />
                 </Flex>
                 <Divider mt={16} color="#C4C4C4" />
