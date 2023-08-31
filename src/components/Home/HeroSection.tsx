@@ -12,7 +12,7 @@ const HeroSection = () => {
   return (
     <>
       <Box
-        mih={{base: 729, sm: 700, lg: 801}}
+        mih={{base: 1095, sm:1250, md: 730, lg: 801}}
         bg={"white"}
         bgr={"no-repeat"}
         bgp={"center"}
