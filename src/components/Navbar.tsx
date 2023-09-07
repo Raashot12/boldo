@@ -67,7 +67,7 @@ const Navbar = () => {
               mr={{base: 0, sm: 40}}
               color="#0A2640"
             >
-              <Link to={"/"}>Product</Link>
+              <Link to={"product"}>Product</Link>
             </Box>
             <Box
               component="li"
@@ -76,7 +76,7 @@ const Navbar = () => {
               pt={{base: 16, sm: 0}}
               mr={{base: 0, sm: 40}}
             >
-              <Link to={"/recipes"}>Services</Link>
+              <Link to={"services"}>Services</Link>
             </Box>
             <Box
               component="li"
@@ -85,7 +85,7 @@ const Navbar = () => {
               pt={{base: 16, sm: 0}}
               mr={{base: 0, sm: 40}}
             >
-              <Link to="/blog">About</Link>
+              <Link to="about">About</Link>
             </Box>
 
             <Box

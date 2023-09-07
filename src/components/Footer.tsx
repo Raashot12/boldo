@@ -51,7 +51,7 @@ const Footer = () => {
                     Home
                   </Text>
                   <Text
-                    onClick={() => pathPushTo("/products")}
+                    onClick={() => pathPushTo("products")}
                     fz={"20px"}
                     fw={400}
                     ff={" Open Sans"}
@@ -59,7 +59,7 @@ const Footer = () => {
                     Services
                   </Text>
                   <Text
-                    onClick={() => pathPushTo("/about")}
+                    onClick={() => pathPushTo("about")}
                     fz={"20px"}
                     fw={400}
                     ff={" Open Sans"}
@@ -68,13 +68,19 @@ const Footer = () => {
                   </Text>
                 </Stack>
               </Grid.Col>
-              <Grid.Col sm={6} md={4}>
-                <Text mb={32} fw={700} fz={20} color="#000">
+              <Grid.Col sm={6} md={4} sx={{cursor: "pointer"}}>
+                <Text
+                  mb={32}
+                  fw={700}
+                  fz={20}
+                  color="#000"
+                  onClick={() => pathPushTo("company")}
+                >
                   Company
                 </Text>
                 <Stack spacing={28}>
                   <Text
-                    onClick={() => pathPushTo("/")}
+                    onClick={() => pathPushTo("")}
                     fz={"20px"}
                     fw={400}
                     ff={" Open Sans"}
@@ -82,7 +88,7 @@ const Footer = () => {
                     Home
                   </Text>
                   <Flex fz={"20px"} fw={400} ff={" Open Sans"} columnGap={16}>
-                    <Text onClick={() => pathPushTo("/products")}>Careers</Text>
+                    <Text onClick={() => pathPushTo("careers")}>Careers</Text>
                     <Flex
                       align={"center"}
                       bg={"#65E4A3"}
@@ -100,41 +106,47 @@ const Footer = () => {
                     </Flex>
                   </Flex>
                   <Text
-                    onClick={() => pathPushTo("/about")}
+                    onClick={() => pathPushTo("services")}
                     fz={"20px"}
                     fw={400}
-                    ff={" Open Sans"}
+                    ff={"Open Sans"}
                   >
                     Services
                   </Text>
                 </Stack>
               </Grid.Col>
-              <Grid.Col sm={6} md={4}>
-                <Text mb={32} fw={700} fz={20} color="#000">
+              <Grid.Col sm={6} md={4} sx={{cursor: "pointer"}}>
+                <Text
+                  mb={32}
+                  fw={700}
+                  fz={20}
+                  color="#000"
+                  onClick={() => pathPushTo("resources")}
+                >
                   Resources
                 </Text>
                 <Stack spacing={28}>
                   <Text
-                    onClick={() => pathPushTo("/blog")}
+                    onClick={() => pathPushTo("blog")}
                     fz={"20px"}
                     fw={400}
-                    ff={" Open Sans"}
+                    ff={"Open Sans"}
                   >
                     Blog
                   </Text>
                   <Text
-                    onClick={() => pathPushTo("/products")}
+                    onClick={() => pathPushTo("products")}
                     fz={"20px"}
                     fw={400}
-                    ff={" Open Sans"}
+                    ff={"Open Sans"}
                   >
                     Products
                   </Text>
                   <Text
-                    onClick={() => pathPushTo("/services")}
+                    onClick={() => pathPushTo("services")}
                     fz={"20px"}
                     fw={400}
-                    ff={" Open Sans"}
+                    ff={"Open Sans"}
                   >
                     Services
                   </Text>
@@ -143,7 +155,7 @@ const Footer = () => {
             </Grid>
           </Grid.Col>
         </Grid>
-        <Text fz={16} fw={400} ff={" Open Sans"} mt={20} color="#777">
+        <Text fz={16} fw={400} ff={"Open Sans"} mt={20} color="#777">
           All rights reserved.
         </Text>
       </Container>
